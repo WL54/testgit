@@ -1,6 +1,6 @@
 ---
 - name: config target server
-  hosts: all
+  hosts: ip-10-0-0-203
 
   tasks:
   - name: Ensure apache is installed
